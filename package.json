@@ -1,6 +1,6 @@
 {
   "name": "alfred-linux-command",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Linux 命令大全搜索工具",
   "license": "MIT",
   "repository": "roojay520/alfred-linux-command",
