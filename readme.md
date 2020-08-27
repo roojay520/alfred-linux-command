@@ -1,6 +1,6 @@
 # alfred-linux-command
 
-> Linux 命令大全搜索工具
+> Linux 命令搜索工具
 
 ## Install
 
@@ -8,13 +8,11 @@
 $ npm install --global alfred-linux-command
 ```
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
-
+*Requires [Node.js](https://nodejs.org) 10+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
 ## Usage
 
-In Alfred, type `lc`, <kbd>Enter</kbd>, and your query.
-
+In Alfred, type `lc`, and your query.
 
 ## License
 
