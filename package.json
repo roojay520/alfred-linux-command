@@ -9,7 +9,6 @@
     "node": ">=10"
   },
   "scripts": {
-    "test": "xo && ava",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
