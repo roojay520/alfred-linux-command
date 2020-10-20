@@ -8,8 +8,21 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>22517CE7-B640-4197-A64C-8452AFC6B011</key>
+		<key>1EF0502C-5333-474F-80A4-21AC74DCF424</key>
 		<array/>
+		<key>22517CE7-B640-4197-A64C-8452AFC6B011</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1EF0502C-5333-474F-80A4-21AC74DCF424</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>roojay</string>
@@ -21,6 +34,25 @@
 	<string>linux-command</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://jaywcjlove.gitee.io/linux-command/c{query}.html</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>1EF0502C-5333-474F-80A4-21AC74DCF424</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -75,6 +107,13 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>1EF0502C-5333-474F-80A4-21AC74DCF424</key>
+		<dict>
+			<key>xpos</key>
+			<integer>285</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
 		<key>22517CE7-B640-4197-A64C-8452AFC6B011</key>
 		<dict>
 			<key>xpos</key>

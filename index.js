@@ -4,6 +4,8 @@ const alfredNotifier = require('alfred-notifier');
 
 alfredNotifier();
 
+const genWebUrl = (q) => `https://jaywcjlove.gitee.io/linux-command/c${q}.html`;
+
 /**
  * @description 模糊搜索
  * @param {array} list 需要匹配的列表
@@ -14,7 +16,13 @@ function fuzzySearch(list, input = alfy.input) {
   const options = { threshold: 0.4, keys: [ 'n', 'd' ] };
   const fuse = new Fuse(list, options);
   const items = fuse.search(input);
-  return items.map(({ item }) => ({ title: item.n, subtitle: item.d }));
+  // https://www.alfredapp.com/help/workflows/inputs/script-filter/json/
+  return items.map(({ item }) => ({
+    title: item.n,
+    subtitle: item.d,
+    arg: item.p,
+    quicklookurl: genWebUrl(item.p)
+  }));
 }
 
 const DATA_URL = 'https://cdn.jsdelivr.net/npm/linux-command@latest/dist/data.json';
