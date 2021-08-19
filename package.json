@@ -26,8 +26,8 @@
   ],
   "dependencies": {
     "alfred-notifier": "^0.2.3",
-    "alfy": "^0.10.0",
-    "fuse.js": "^6.4.1"
+    "alfy": "v0.11.1",
+    "fuse.js": "^6.4.6"
   },
   "devDependencies": {}
 }

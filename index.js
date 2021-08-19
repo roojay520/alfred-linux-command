@@ -4,7 +4,7 @@ const alfredNotifier = require('alfred-notifier');
 
 alfredNotifier();
 
-const genWebUrl = (q) => `https://jaywcjlove.gitee.io/linux-command/c${q}.html`;
+const genWebUrl = (q) => `https://jaywcjlove.github.io/linux-command/c${q}.html`;
 
 /**
  * @description 模糊搜索
